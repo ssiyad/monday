@@ -1,0 +1,16 @@
+package main
+
+import (
+	"flag"
+	"fmt"
+)
+
+func main() {
+	flag.Parse()
+	switch flag.Arg(0) {
+	case "server":
+		Server()
+	default:
+		fmt.Println("default action")
+	}
+}
