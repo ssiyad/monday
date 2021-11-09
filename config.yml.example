@@ -1,0 +1,4 @@
+servers:
+  - 0x01:
+    name: LocalH
+    ip: localhost

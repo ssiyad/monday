@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"fmt"
 )
 
 func main() {
@@ -11,6 +10,6 @@ func main() {
 	case "server":
 		Server()
 	default:
-		fmt.Println("default action")
+		Client()
 	}
 }
